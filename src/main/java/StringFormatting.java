@@ -21,9 +21,28 @@ public class StringFormatting {
         strings.add(testStringTre);
         strings.add(testNumberTre);
 
-        for (String string : strings) {
-            System.out.format("%32s", string);
+        // Spacing test
+        // spaceShitApart(strings);
+
+        // justifyShit();
+
+        fieldWidthAndMaxChars();
+
+    }
+
+    private static void spaceShitApart(ArrayList<String> stringToDoTheThingTo) {
+        for (String string : stringToDoTheThingTo) {
+            System.out.format("%10s", string);
         }
+    }
+
+    private static void justifyShit() {
+        String.format("");
+        // finish this in a sec
+    }
+
+    private static void fieldWidthAndMaxChars() {
+        System.out.println(String.format("|%3O.5s|", "Hello World"));
     }
 
 }
