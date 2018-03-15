@@ -12,14 +12,16 @@ public class Regex {
 
         String shoeMaybePlural = "shoes?";
 
+
         System.out.println("shoe".matches(shoeMaybePlural));
         System.out.println("shoes".matches(shoeMaybePlural));
 
-        String name = "name";
 
+        // String formatting BABY
+        System.out.println(String.format("%-15s%10s%15s%2d%5s", "name:", "Milk", "seen: ", 0, " times"));
+        System.out.println(String.format("%-15s%10s%15s%2d%5s", "price:", "MilkMilk", "seen: ", 10, " times"));
+        System.out.println(String.format("%-15s%10s%15s%2d%5s", "expiration:", "MilkMilk", "seen: ", 10, " times"));
 
-        System.out.println(String.format("%s:%15s%15s%2d%5s", name, "Milk", "seen: ", 0, " times"));
-        System.out.println(String.format("%s:%15s%15s%2d%5s", name, "MilkMilk", "seen: ", 10, " times"));
 
 
     }
