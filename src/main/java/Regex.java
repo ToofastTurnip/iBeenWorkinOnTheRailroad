@@ -22,7 +22,8 @@ public class Regex {
         System.out.println(String.format("%-15s%10s%15s%2d%5s", "price:", "MilkMilk", "seen: ", 10, " times"));
         System.out.println(String.format("%-15s%10s%15s%2d%5s", "expiration:", "MilkMilk", "seen: ", 10, " times"));
 
-
+        String splitAtTheseChars = "([;:^@%*!])";
+        String splitMeUp = "name:cookies;price:2.35^type";
 
     }
 
