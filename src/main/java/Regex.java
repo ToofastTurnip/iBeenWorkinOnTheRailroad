@@ -15,6 +15,8 @@ public class Regex {
 
         System.out.println("shoe".matches(shoeMaybePlural));
         System.out.println("shoes".matches(shoeMaybePlural));
+        System.out.println("shoess".matches(shoeMaybePlural));
+
 
 
         // String formatting BABY
@@ -24,6 +26,11 @@ public class Regex {
 
         String splitAtTheseChars = "([;:^@%*!])";
         String splitMeUp = "name:cookies;price:2.35^type";
+        String[] splitted = splitMeUp.split(splitAtTheseChars);
+
+        for (String aSplitted : splitted) {
+            System.out.print(aSplitted + " ");
+        }
 
     }
 
