@@ -1,0 +1,1 @@
+<temperature>&lt;script&gt;codehere&lt;/script&gt;</temperature>

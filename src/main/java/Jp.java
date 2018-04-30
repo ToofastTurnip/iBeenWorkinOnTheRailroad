@@ -33,7 +33,6 @@ public class Jp {
             bar = new ArrayList<>();
         }
         String answer = String.join(",", foo);
-        System.out.println(answer);
         return answer;
     }
 
