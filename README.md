@@ -4,7 +4,7 @@
 This repo is for tests and notes.
 
 ignore this:  
-```
+```java
 import java.util.ArrayDeque;
 import java.util.Arrays;
 import java.util.List;
