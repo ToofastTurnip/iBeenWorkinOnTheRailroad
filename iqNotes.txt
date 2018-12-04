@@ -1,0 +1,13 @@
+Introduction
+
+I work in Global Real Estate using mostly java along with a few other technologies.
+Are you possibly interested in a position at JP Morgan?  Why?
+
+Whiteboard questions:
+1. Reverse a string
+2. Print a fibonnachi sequence
+3. Write a regular expression for matching a 4-digit pin "^(\\d{4})$"
+
+Conceptual questions:
+1. What makes java so special?  Why use java over other technologies?
+2. Can you have more than one main method in a class?
