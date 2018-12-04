@@ -11,3 +11,6 @@ Whiteboard questions:
 Conceptual questions:
 1. What makes java so special?  Why use java over other technologies?
 2. Can you have more than one main method in a class?
+
+Jokes:
+1. Why don't keyboards sleep?  Because they have two shifts! AAAAAA
