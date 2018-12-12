@@ -8,7 +8,7 @@ How would you rate your knowlege on software development?
 1. Reverse a string
 2. Reverse the words in a string but not the order of the words
 3. Print a fibonnachi sequence
-4. Write a regular expression for matching a 4-digit pin "^(\\d{4})$"
+4. Write a regular expression for matching a 4-digit pin `"^(\\d{4})$"`
 
 ### Conceptual questions
 1. What makes java so special?  Why use java over other technologies?
