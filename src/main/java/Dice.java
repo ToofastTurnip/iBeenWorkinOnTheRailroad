@@ -1,7 +1,5 @@
 import java.util.concurrent.ThreadLocalRandom;
-
 public class Dice {
-
     public int diceRoller(int faces, int rolls) {
         int res = 0;
         for (int i = 0; i < rolls; i++) {
@@ -10,5 +8,4 @@ public class Dice {
         System.out.println("Result " + res);
         return res;
     }
-
 }
