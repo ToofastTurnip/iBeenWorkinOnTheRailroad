@@ -1,2 +1,18 @@
-Jp.java
-JpTest.java
+# Mac system files
+.DS_Store
+
+# IntelliJ IDEA project files
+.idea/
+*.iml
+
+# Maven/Gradle build output
+target/
+build/
+out/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
